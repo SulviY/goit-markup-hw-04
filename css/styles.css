@@ -424,3 +424,17 @@ ol {
 .no-gap {
   display: block;
 }
+
+.social-list {
+}
+
+.social-list-item {
+}
+
+.social-list-item-envelope {
+}
+
+.social-list-icon {
+  width: 16px;
+  height: 12px;
+}
