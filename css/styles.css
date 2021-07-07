@@ -426,15 +426,27 @@ ol {
 }
 
 .social-list {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: 0 auto;
 }
 
 .social-list-item {
 }
 
-.social-list-item-envelope {
+.social-list-item-link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #212121;
 }
 
 .social-list-icon {
   width: 16px;
   height: 12px;
+}
+
+.social-list-item-envelope {
 }
