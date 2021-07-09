@@ -282,6 +282,7 @@ ol {
 
 .team-list-item-name,
 .team-list-item-position {
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -425,25 +426,82 @@ ol {
   display: block;
 }
 
-/* .social-list {
+.social-list-item-link {
   display: flex;
-} */
-
-.social-list-item {
-}
-
-/* .social-list-item-link {
-  display: block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #212121;
-} */
-
-.social-list-icon {
-  width: 16px;
-  height: 12px;
+  align-items: center;
 }
 
 .social-list-item-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.social-list-item-link:hover,
+.social-list-item-link:focus {
+  fill: currentColor;
+}
+
+.social-list-item-mobile {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.hero {
+  background-color: #c4c4c4;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/bg-img.jpg);
+  background-size: cover;
+
+  width: 1600px;
+}
+
+.features-list-item-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
+  width: 270px;
+  height: 120px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.features-list-item-antenna,
+.features-list-item-clock,
+.features-list-item-diagram,
+.features-list-item-astronaut {
+  width: 70px;
+  height: 70px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  background-color: transparent;
+}
+
+.social-media-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-icon-instagram {
+  width: 20px;
+  height: 20px;
 }
