@@ -517,3 +517,10 @@ ol {
   height: 20px;
 }
 
+.footer-container {
+  display: flex;
+}
+
+.footer-logo-address {
+  margin-right: 70px;
+}
