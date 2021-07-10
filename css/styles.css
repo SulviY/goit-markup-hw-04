@@ -456,8 +456,9 @@ ol {
     ),
     url(../images/hero/bg-img.jpg);
   background-size: cover;
+  background-position: 50% 50%;
 
-  width: 1600px;
+  max-width: 1600px;
 }
 
 .features-list-item-box {
@@ -493,6 +494,13 @@ ol {
   border-radius: 50%;
 
   background-color: transparent;
+  fill: #AFB1B8;
+}
+
+.social-media-icon:hover,
+.social-media-icon:focus {
+  background-color: var(--accent-color);
+  fill: var(--secondary-text-color);
 }
 
 .social-media-icon {
@@ -501,7 +509,11 @@ ol {
   align-items: center;
 }
 
-.social-media-icon-instagram {
+.social-media-icon-instagram,
+.social-media-icon-twitter,
+.social-media-icon-facebook,
+.social-media-icon-linkedin {
   width: 20px;
   height: 20px;
 }
+
